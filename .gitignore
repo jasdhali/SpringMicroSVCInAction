@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings
+.settings/org.eclipse.jdt.apt.core.prefs
+        new file:   confsvr/.settings/org.eclipse.jdt.core.prefs
+        new file:   confsvr/.settings/org.eclipse.m2e.core.prefs
+        new file:   confsvr/.settings/org.springframework.ide.eclipse.prefs
