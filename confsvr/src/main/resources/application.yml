@@ -1,5 +1,16 @@
 server:
   port: 8888
-spring:  profiles:    active: native
-  cloud:    config:      server:        native:          #searchLocations: file:///Users/johncarnell1/book/native_cloud_apps/ch4-config-managment/confsvr/src/main/resources/config/licensingservice
-          searchLocations: C:\devenv\jasdhali\springbootmisc\SpringMicroSVCInAction\confsvr\src\main\resources\config\licensingservice\licensingservice.yml               
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        #native:
+        #  searchLocations: file:///c/devenv/jasdhali/SpringMicroSVCInAction/confsvr/src/main/resources/config//licensingservice
+        git:
+          uri: https://github.com/jasdhali/config-repo/
+          searchPaths: licensingservice
+          username: jasdhali
+          password: S@hajKa4r
+               
